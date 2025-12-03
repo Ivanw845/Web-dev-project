@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  /* Header / Navigation */
+  header {
+    background-color: #007BFF;
+    padding: 15px 0;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #007BFF;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+  }
+
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+  .project:hover {
+    transform: scale(1.03);
+  }
+
+  .project img {
+    width: 100%;
+    display: block;
+  }
+
+  .project p {
+    margin: 10px;
+    font-size: 1em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<h1>My Projects</h1>
+<div class="projects-container">
+  <div class="project">
+    <img src="images/project1.jpg" alt="Project 1">
+    <p>My friend playing guitar</p>
+  </div>
+  <div class="project">
+    <img src="images/project2.jpg" alt="Project 2">
+    <p>My Dad, teaching me how to prepare a glass of amaretto</p>
+  </div>
+  <div class="project">
+    <img src="images/project3.jpg" alt="Project 3">
+    <p>A whimsical evening scene</p>
+  </div>
+  <!-- Add more projects by duplicating the above div and changing the image & description -->
+</div>
+
+</body>
+</html>
